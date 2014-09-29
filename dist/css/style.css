@@ -92,20 +92,50 @@
 }
 
 .journal{
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 85%;
+    margin-bottom: .8%;
 }
 
 .value{
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 85%;
     color: #555555;
+    margin-bottom: .8%;
 }
 
-.mt2{
-    margin-top: 2%;
+.mt1{
+    margin-top: 1%;
 }
 
 a{
     cursor: pointer;
+}
+
+.follow{
+    background-color: #898989;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+    opacity: 0.9;
+    margin-left: 2%;
+}
+
+.follow:hover,.follow:focus{
+    color: #ffffff;
+    opacity: 1;
+}
+
+.shortlist{
+    background-color: #00aeef;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+    opacity: 0.9;
+    margin-left: 2%;
+}
+
+.shortlist:hover,.shortlist:focus{
+    color: #ffffff;
+    opacity: 1;
 }
