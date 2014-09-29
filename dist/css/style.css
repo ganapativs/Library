@@ -97,10 +97,22 @@
     font-weight: 300;
 }
 
+a.title,a.title:hover{
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dotted #b6b1a9;
+}
+
 .journal{
     margin-top: 1%;
     font-size: 85%;
     margin-bottom: .8%;
+    color: brown;
+}
+
+.mainTitle{
+    color: #333;
+    font-size: 95%;
 }
 
 .value{
@@ -185,6 +197,13 @@ a{
 
 .bookCol:hover{
     box-shadow: 1.5px 2.598px 3px 1px rgba(0, 0, 0, 0.27);
+}
+
+.navRowBottom{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 @media (max-width: 991px) {
