@@ -1,5 +1,6 @@
 *,html,body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .navbar-brand{
@@ -206,6 +207,10 @@ a{
     padding-right: 2%;
 }
 
+.yearSlider{
+    margin-top: 10%;
+}
+
 @media (max-width: 991px) {
     .follow{
         margin-left: 0;
@@ -213,4 +218,36 @@ a{
     .actionButtons{
         text-align: center;
     }
+
+    .yearSlider{
+        margin-top: 5%;
+    }
+}
+
+.leftSearchTop{
+    margin-top: 8%;
+}
+
+.resQuery{
+    padding: 6px;
+    background-color: #fafafa;
+    font-size: 120%;
+}
+
+.resCount{
+    font-size: 80%;
+    padding: 4px;
+}
+
+.slider.slider-horizontal{
+    width: 100%;
+}
+
+#yearSliderData .slider-selection {
+    background: #dddddd;
+}
+
+.slider-handle{
+    width: 10px;
+    border-radius: 25% !important;
 }

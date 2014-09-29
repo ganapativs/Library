@@ -5,6 +5,7 @@
     <title>Search Results</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="dist/css/bootstrap-slider.css" rel="stylesheet" media="screen">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet" media="screen">
 </head>
@@ -233,12 +234,24 @@
 
             </div>
         </div>
-        <div class="col-md-3 filterCol pull-left" style="height: 3px;background-color: #d9534f"></div>
+        <div class="col-md-3 filterCol pull-left">
+            <div class="col-md-12">
+                <div class="row leftSearchTop">
+                    <p class="inline resQuery">Quantum Physics</p><p class="resCount inline text-muted">(23,456 total
+                    results)</p>
+                </div>
+                <div class="row yearSlider">
+                    <input id="yearSlider" data-slider-id='yearSliderData' type="text" data-slider-min="1850" data-slider-max="2014" data-slider-step="1" data-slider-value="2000"/>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <script src="dist/js/jquery.js"></script>
 <script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/bootstrap-slider.js"></script>
+<script src="dist/js/script.js"></script>
 <script src="dist/js/font.js"></script>
 </body>
 </html>
