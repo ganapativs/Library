@@ -1,0 +1,38 @@
+*,html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #0574b9;
+}
+
+.headerContainer{
+    position: relative;
+}
+
+.searchForm{
+    width: 500px;
+    position: absolute;
+    top: 8px;
+    left: 310px;
+}
+
+@media (max-width: 1200px) {
+    .searchForm{
+        width: 430px;
+    }
+}
+
+@media (max-width: 991px) {
+    .searchForm{
+        position: relative;
+        width: 100%;
+        margin: 5px;
+        top: 0;
+        left: 0;
+    }
+}
